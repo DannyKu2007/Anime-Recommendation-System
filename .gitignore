@@ -1,0 +1,5 @@
+__pycache__/
+.idea
+.DS_Store
+internal/adapters/db/users.db
+internal/domain/tables/rating.csv
