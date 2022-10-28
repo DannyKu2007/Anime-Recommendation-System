@@ -1,7 +1,7 @@
-from internal.adapters.db.sqlite import get_watched_document, get_undesired_document
+from ..adapters.db.sqlite import get_watched_document, get_undesired_document
 
-from internal.model.lda_model import get_lda_model
-from internal.domain.user_data import users_data_path
+from .lda_model import get_lda_model
+from ..domain.user_data import users_data_path
 
 from gensim.corpora.dictionary import Dictionary
 

@@ -1,4 +1,4 @@
-from internal.adapters.db.sqlite import create_table
+from ..adapters.db.sqlite import create_table
 
 import string
 

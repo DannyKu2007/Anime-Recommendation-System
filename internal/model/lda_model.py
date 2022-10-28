@@ -1,4 +1,4 @@
-from internal.domain.user_data import get_user_data
+from ..domain.user_data import get_user_data
 
 from gensim.corpora.dictionary import Dictionary
 from gensim.models.ldamodel import LdaModel
@@ -6,7 +6,7 @@ from gensim.models.ldamodel import LdaModel
 from os.path import exists, dirname
 from os import makedirs
 
-models_path = './../internal/model/models/lda_model'
+models_path = 'Recommendation/internal/model/models/lda_model'
 
 
 def get_lda_model(logger, removing_symbols):

@@ -1,10 +1,10 @@
-from internal.domain.users_documents import get_users_documents
+from .users_documents import get_users_documents
 
 from numpy import asarray, save, load
 from os.path import exists, dirname
 from os import makedirs
 
-users_data_path = './../internal/domain/users_data/documents.npy'
+users_data_path = 'Recommendation/internal/domain/users_data/documents.npy'
 
 
 def get_user_data(logger, removing_symbols):

@@ -1,9 +1,9 @@
-from internal.composites.app_composite import prepare_application
+from ..internal.composites.app_composite import prepare_application
 
-from internal.adapters.db.sqlite import get_watched_document, get_undesired_document, \
+from ..internal.adapters.db.sqlite import get_watched_document, get_undesired_document, \
     watch_anime, allow_anime, hate_anime
 
-from internal.model.recommendation import get_recommendation
+from ..internal.model.recommendation import get_recommendation
 
 import telebot
 
@@ -24,12 +24,6 @@ def get_instruction(message):
                   "/my_watched_list - anime that you specified as viewed\n" + \
                   "/watch - write down what other anime you watched " \
                   "(you need to first write /watch, and then the name of the anime)\n" + \
-                  "/recommendation - getting a recommendation\n" + \
-                  "Here are the main commands:\n" + \
-                  "/start, /help - getting instructions\n" + \
-                  "/my_watched_list - anime that you specified as viewed\n" + \
-                  "/watch - write down what other anime you watched " \
-                  "(you need to first write /watch, and then the name of the anime)" + \
                   "/recommendation - getting a recommendation\n" + \
                   "\n" + \
                   "Also, obviously you may not like some recommendations, so that a certain anime is not offered, " \

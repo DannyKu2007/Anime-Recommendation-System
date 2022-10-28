@@ -1,7 +1,7 @@
 import pandas as pd
 
-anime_path = './../internal/domain/tables/anime.csv'
-rating_path = './../internal/domain/tables/rating.csv'
+anime_path = 'Recommendation/internal/domain/tables/anime.csv'
+rating_path = 'Recommendation/internal/domain/tables/rating.csv'
 
 
 def get_users_documents(logger, removing_symbols):
