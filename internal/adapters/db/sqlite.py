@@ -1,6 +1,6 @@
 from peewee import SqliteDatabase, Model, CharField
 
-db_path = 'Recommendation/internal/adapters/db/users.db '
+db_path = 'Recommendation/internal/adapters/db/users.db'
 db = SqliteDatabase(db_path)
 
 
