@@ -3,4 +3,3 @@ __pycache__/
 .DS_Store
 internal/adapters/db/users.db
 internal/domain/tables/rating.csv
-internal/adapters/db/sqlite.py
