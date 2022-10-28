@@ -1,5 +1,6 @@
 __pycache__/
 .idea
+__init__.py
 .DS_Store
 internal/adapters/db/users.db
-internal/domain/tables/rating.csv
+internal/domain/tables/rating.csvinternal/adapters/db/users.db
